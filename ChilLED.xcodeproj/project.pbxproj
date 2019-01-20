@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06032253B3FAB14B6C17C46D /* Pods_ChilLED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505DE56AC27BB9E397E4C15B /* Pods_ChilLED.framework */; };
 		CAAF6BF721F4E3FC004C996C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF6BF621F4E3FC004C996C /* AppDelegate.swift */; };
 		CAAF6BF921F4E3FC004C996C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF6BF821F4E3FC004C996C /* ViewController.swift */; };
 		CAAF6BFC21F4E3FC004C996C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAF6BFA21F4E3FC004C996C /* Main.storyboard */; };
 		CAAF6BFE21F4E3FE004C996C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAF6BFD21F4E3FE004C996C /* Assets.xcassets */; };
 		CAAF6C0121F4E3FE004C996C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAF6BFF21F4E3FE004C996C /* LaunchScreen.storyboard */; };
+		CAAF6C0921F4E622004C996C /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF6C0821F4E622004C996C /* DeviceListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CAFD85E11D93B0A176572C5 /* Pods-ChilLED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChilLED.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChilLED/Pods-ChilLED.release.xcconfig"; sourceTree = "<group>"; };
+		505DE56AC27BB9E397E4C15B /* Pods_ChilLED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChilLED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4005B5886D903E47C96582E /* Pods-ChilLED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChilLED.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChilLED/Pods-ChilLED.debug.xcconfig"; sourceTree = "<group>"; };
 		CAAF6BF321F4E3FC004C996C /* ChilLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChilLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAF6BF621F4E3FC004C996C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAAF6BF821F4E3FC004C996C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		CAAF6BFD21F4E3FE004C996C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAAF6C0021F4E3FE004C996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAAF6C0221F4E3FE004C996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAF6C0821F4E622004C996C /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06032253B3FAB14B6C17C46D /* Pods_ChilLED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15B3E5452AF6D937A683C878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				505DE56AC27BB9E397E4C15B /* Pods_ChilLED.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DE3C2100C3C9F455AAF122D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4005B5886D903E47C96582E /* Pods-ChilLED.debug.xcconfig */,
+				3CAFD85E11D93B0A176572C5 /* Pods-ChilLED.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CAAF6BEA21F4E3FC004C996C = {
 			isa = PBXGroup;
 			children = (
 				CAAF6BF521F4E3FC004C996C /* ChilLED */,
 				CAAF6BF421F4E3FC004C996C /* Products */,
+				2DE3C2100C3C9F455AAF122D /* Pods */,
+				15B3E5452AF6D937A683C878 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				CAAF6BFD21F4E3FE004C996C /* Assets.xcassets */,
 				CAAF6BFF21F4E3FE004C996C /* LaunchScreen.storyboard */,
 				CAAF6C0221F4E3FE004C996C /* Info.plist */,
+				CAAF6C0821F4E622004C996C /* DeviceListViewController.swift */,
 			);
 			path = ChilLED;
 			sourceTree = "<group>";
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAAF6C0521F4E3FE004C996C /* Build configuration list for PBXNativeTarget "ChilLED" */;
 			buildPhases = (
+				A61CED91410ACD2790613813 /* [CP] Check Pods Manifest.lock */,
 				CAAF6BEF21F4E3FC004C996C /* Sources */,
 				CAAF6BF021F4E3FC004C996C /* Frameworks */,
 				CAAF6BF121F4E3FC004C996C /* Resources */,
+				B3B68FC250AFF6F78A01CFA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +159,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A61CED91410ACD2790613813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChilLED-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B68FC250AFF6F78A01CFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChilLED/Pods-ChilLED-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MKProgress/MKProgress.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKProgress.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChilLED/Pods-ChilLED-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAAF6BEF21F4E3FC004C996C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +213,7 @@
 			files = (
 				CAAF6BF921F4E3FC004C996C /* ViewController.swift in Sources */,
 				CAAF6BF721F4E3FC004C996C /* AppDelegate.swift in Sources */,
+				CAAF6C0921F4E622004C996C /* DeviceListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +357,7 @@
 		};
 		CAAF6C0621F4E3FE004C996C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4005B5886D903E47C96582E /* Pods-ChilLED.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -299,6 +377,7 @@
 		};
 		CAAF6C0721F4E3FE004C996C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAFD85E11D93B0A176572C5 /* Pods-ChilLED.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
