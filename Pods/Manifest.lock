@@ -1,16 +1,20 @@
 PODS:
   - MKProgress (1.0.9)
+  - Toast-Swift (4.0.1)
 
 DEPENDENCIES:
   - MKProgress (~> 1.0.9)
+  - Toast-Swift (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - MKProgress
+    - Toast-Swift
 
 SPEC CHECKSUMS:
   MKProgress: 4fa8dd701b872c82b780c885d577f99c8848d584
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
 
-PODFILE CHECKSUM: a1927f951e8b4acfe39bf170574ea9df3c10ac98
+PODFILE CHECKSUM: 3cf8c4ce748a8922376ce3a96aac8e47e1c6068d
 
 COCOAPODS: 1.5.3

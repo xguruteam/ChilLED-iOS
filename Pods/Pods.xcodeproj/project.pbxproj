@@ -7,71 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1702A94DD08E718482BED5305B442828 /* Pods-ChilLED-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A07970DF5B3C0C86C86122F9489AC77E /* Pods-ChilLED-dummy.m */; };
-		1A074F2FD2B8CBF3E21DFCC944E3359F /* MKProgressBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F5F40D164715AA4433A82F91BCB97 /* MKProgressBackgroundView.swift */; };
-		1EB48B01B87D33BF0BDF0D10B59F7FD4 /* MKLayerAnimationPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1E4BEDCCBE51420A1708630518313 /* MKLayerAnimationPersistence.swift */; };
-		20FEFF96E4763DA317A65DF5ADC80749 /* MKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497830D44F0AF10BECE46F12FE400DE /* MKConfig.swift */; };
-		3EB01EBF2519DA54EC8E34B7E7EE5B0D /* MKProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618822BD40FBAD1FA25E1B4E9F767EFC /* MKProgress.swift */; };
-		4151996AF09E4E39CC7B7BAB713FF6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		41A3553BD6603BD4145BA352314308AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		6EBF4528559835AC71FF91A170B94106 /* MKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA19A7A90CB224201AC86008943848 /* MKActivityIndicatorView.swift */; };
-		7F7DCAE1ED0D146476197AEBC7DCEA6B /* MKRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C56DDC237ED29E03594F72066E12FC /* MKRotationView.swift */; };
-		8F0BB23EE6EA89C49A87B0A563091B82 /* MKProgressBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D855CF8EFBAC5428E5BB3D9E76F0F8 /* MKProgressBaseView.swift */; };
-		8F1B3D1C4C07A4B52AE6CCDBA82E4687 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C8D9EC00DD7629C3081343C2FFE595 /* CALayer+Extension.swift */; };
-		CE3E994CE0778F98ABC49639CD13B2B0 /* MKProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D82FC77F946C496B4C5C7EE03DE9D4C1 /* MKProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA5702BC872FE3B1727C5C2064643B7A /* MKProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81752C533502AD1DB202A0A7FC1361 /* MKProgressViewController.swift */; };
-		EF96600EA823A9AF92C87125D2AB9045 /* Pods-ChilLED-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6E387C9E6F987507DB14D42A3F6217 /* Pods-ChilLED-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7A06A74986F2DC56901841FE6EE7216 /* MKProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45497C8CC8287EC044576062D9FE6572 /* MKProgress-dummy.m */; };
+		1A074F2FD2B8CBF3E21DFCC944E3359F /* MKProgressBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE7EE47DFEF418D10EB7CB1C1EDA038 /* MKProgressBackgroundView.swift */; };
+		1EB48B01B87D33BF0BDF0D10B59F7FD4 /* MKLayerAnimationPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302870803A9B23BB5EBC5B67D7CC4D42 /* MKLayerAnimationPersistence.swift */; };
+		20FEFF96E4763DA317A65DF5ADC80749 /* MKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1248DA2DD33BEC64AB2050F455022FD /* MKConfig.swift */; };
+		3EB01EBF2519DA54EC8E34B7E7EE5B0D /* MKProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569C90C38FBAD7C949140F0DC4B8BFC /* MKProgress.swift */; };
+		4151996AF09E4E39CC7B7BAB713FF6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
+		41821FA36B39F99F4474143144EF9201 /* Pods-ChilLED-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A07970DF5B3C0C86C86122F9489AC77E /* Pods-ChilLED-dummy.m */; };
+		48087EA2FA3F11C4C394C637AA0755E0 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A12A991DA3A663D6B4ADE2D050BFF08 /* Toast-Swift-dummy.m */; };
+		6EBF4528559835AC71FF91A170B94106 /* MKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E62CE1B5EA8637D450E506C76CAA4A /* MKActivityIndicatorView.swift */; };
+		7715DFC65BF91C652683C0F7E43D0539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
+		7F7DCAE1ED0D146476197AEBC7DCEA6B /* MKRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1C78BA6B4BAC359F6341625082D97 /* MKRotationView.swift */; };
+		8F0BB23EE6EA89C49A87B0A563091B82 /* MKProgressBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5688146D303164634D52973FCAF360 /* MKProgressBaseView.swift */; };
+		8F1B3D1C4C07A4B52AE6CCDBA82E4687 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC028D884383AA29CDC9831354FE7B /* CALayer+Extension.swift */; };
+		A93124625068905A8EDF87A90779C032 /* Pods-ChilLED-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6E387C9E6F987507DB14D42A3F6217 /* Pods-ChilLED-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB37956A7B35B415EF079948F25C3599 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C453BDE43C0E8D4546F314983632E7 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD443F5C2D2C256EEFD5D6C439DA6A17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */; };
+		CE3E994CE0778F98ABC49639CD13B2B0 /* MKProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7A5052205CDF02F6B3F372B98F63E9 /* MKProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D456FAF13D67D1FE56B6ADCD3F39326C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC238098B9532DB1D321D382F488115 /* Toast.swift */; };
+		EA5702BC872FE3B1727C5C2064643B7A /* MKProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED987466DC1DBF6AE4DC2861F92DF00 /* MKProgressViewController.swift */; };
+		F7A06A74986F2DC56901841FE6EE7216 /* MKProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F255B48068111B8DD2A72BE77F57714 /* MKProgress-dummy.m */; };
+		FA6E1E7FE4CC47037C25794B27E8A8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B8562AAAFBFAC2E60BA2560E1E514619 /* PBXContainerItemProxy */ = {
+		8222672D41050F0BB4284B935C32A658 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 70781BC0C34D3B0C249BD51996DBD75A;
 			remoteInfo = MKProgress;
 		};
+		E325303135F3B7C602C23690BF21BF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101EC400CCFE7711E21CB6973F1D4AF2;
+			remoteInfo = "Toast-Swift";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071D7242725A36ADC8CF2FC5138BF4F2 /* MKProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKProgress.xcconfig; sourceTree = "<group>"; };
-		1006CBDD25BAE3899084C9A30D78FB0F /* MKProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKProgress.modulemap; sourceTree = "<group>"; };
+		0DCB1C73B1A18D94FC8AC2634BCDAC3C /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		0ED987466DC1DBF6AE4DC2861F92DF00 /* MKProgressViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgressViewController.swift; path = MKProgress/MKProgressViewController.swift; sourceTree = "<group>"; };
 		13CF065F5E27417593FE555A934DC652 /* Pods-ChilLED-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChilLED-acknowledgements.plist"; sourceTree = "<group>"; };
-		27F1E4BEDCCBE51420A1708630518313 /* MKLayerAnimationPersistence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLayerAnimationPersistence.swift; path = MKProgress/MKLayerAnimationPersistence.swift; sourceTree = "<group>"; };
+		1D97764CF6EDA8B53D73228A1DBCA876 /* MKProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKProgress.xcconfig; sourceTree = "<group>"; };
+		24BC028D884383AA29CDC9831354FE7B /* CALayer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extension.swift"; path = "MKProgress/CALayer+Extension.swift"; sourceTree = "<group>"; };
 		2C6E387C9E6F987507DB14D42A3F6217 /* Pods-ChilLED-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChilLED-umbrella.h"; sourceTree = "<group>"; };
 		2ED214272D9A43782F5D655A4EBB4792 /* Pods-ChilLED.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChilLED.modulemap"; sourceTree = "<group>"; };
-		2F76F241BDC3F1C788A71D621EB1B836 /* MKProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKProgress.framework; path = MKProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4497830D44F0AF10BECE46F12FE400DE /* MKConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKConfig.swift; path = MKProgress/MKConfig.swift; sourceTree = "<group>"; };
-		45497C8CC8287EC044576062D9FE6572 /* MKProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKProgress-dummy.m"; sourceTree = "<group>"; };
+		302870803A9B23BB5EBC5B67D7CC4D42 /* MKLayerAnimationPersistence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLayerAnimationPersistence.swift; path = MKProgress/MKLayerAnimationPersistence.swift; sourceTree = "<group>"; };
+		3A0789F5D4D06EEADE4ED88E0F7EE26A /* Pods_ChilLED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChilLED.framework; path = "Pods-ChilLED.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB28E7F935C06A0916131D8CB6468C1 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5688146D303164634D52973FCAF360 /* MKProgressBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgressBaseView.swift; path = MKProgress/MKProgressBaseView.swift; sourceTree = "<group>"; };
+		3D52681C7B6BE4F7A8BA378254E1C9A0 /* MKProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKProgress.modulemap; sourceTree = "<group>"; };
+		3F7A5052205CDF02F6B3F372B98F63E9 /* MKProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKProgress-umbrella.h"; sourceTree = "<group>"; };
+		408C30F3353F7D215F6C8608184B30E9 /* MKProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKProgress-prefix.pch"; sourceTree = "<group>"; };
 		5100A38600A20C785AD9FBA125BD4A6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5266D24217C665900F89C6EE244D7EA4 /* Pods-ChilLED-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChilLED-frameworks.sh"; sourceTree = "<group>"; };
-		618822BD40FBAD1FA25E1B4E9F767EFC /* MKProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgress.swift; path = MKProgress/MKProgress.swift; sourceTree = "<group>"; };
+		5569C90C38FBAD7C949140F0DC4B8BFC /* MKProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgress.swift; path = MKProgress/MKProgress.swift; sourceTree = "<group>"; };
+		6B783972835CB8B883A43935E568F9C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F255B48068111B8DD2A72BE77F57714 /* MKProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKProgress-dummy.m"; sourceTree = "<group>"; };
+		72C24C17C358035EF3ABEFAE58348B84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6363D670568998DBC24F909E9627F9 /* Pods-ChilLED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChilLED.release.xcconfig"; sourceTree = "<group>"; };
-		802F5F40D164715AA4433A82F91BCB97 /* MKProgressBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgressBackgroundView.swift; path = MKProgress/MKProgressBackgroundView.swift; sourceTree = "<group>"; };
-		8A36AC125E52FDC4901A5F6399718ACD /* Pods_ChilLED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChilLED.framework; path = "Pods-ChilLED.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE7EE47DFEF418D10EB7CB1C1EDA038 /* MKProgressBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgressBackgroundView.swift; path = MKProgress/MKProgressBackgroundView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C1DDCC9FE62F70ABA62B834D5EC54F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DB18A786A2EDA8D54B560DFC6580D39 /* MKProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKProgress-prefix.pch"; sourceTree = "<group>"; };
+		9A12A991DA3A663D6B4ADE2D050BFF08 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		9DC238098B9532DB1D321D382F488115 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
 		A07970DF5B3C0C86C86122F9489AC77E /* Pods-ChilLED-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChilLED-dummy.m"; sourceTree = "<group>"; };
-		B0BA19A7A90CB224201AC86008943848 /* MKActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKActivityIndicatorView.swift; path = MKProgress/MKActivityIndicatorView.swift; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D82FC77F946C496B4C5C7EE03DE9D4C1 /* MKProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKProgress-umbrella.h"; sourceTree = "<group>"; };
-		DA81752C533502AD1DB202A0A7FC1361 /* MKProgressViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgressViewController.swift; path = MKProgress/MKProgressViewController.swift; sourceTree = "<group>"; };
+		B6E62CE1B5EA8637D450E506C76CAA4A /* MKActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKActivityIndicatorView.swift; path = MKProgress/MKActivityIndicatorView.swift; sourceTree = "<group>"; };
+		C633A96EB5F13C40BBB5D76381E5F17B /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		D4C453BDE43C0E8D4546F314983632E7 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		E0F53CB90548A89C3FA7D0244A46C221 /* Pods-ChilLED-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChilLED-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E7C56DDC237ED29E03594F72066E12FC /* MKRotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKRotationView.swift; path = MKProgress/MKRotationView.swift; sourceTree = "<group>"; };
-		F2D855CF8EFBAC5428E5BB3D9E76F0F8 /* MKProgressBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProgressBaseView.swift; path = MKProgress/MKProgressBaseView.swift; sourceTree = "<group>"; };
-		F7C8D9EC00DD7629C3081343C2FFE595 /* CALayer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extension.swift"; path = "MKProgress/CALayer+Extension.swift"; sourceTree = "<group>"; };
+		E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB87BABF68FD91D205F68D405406D51E /* MKProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKProgress.framework; path = MKProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F0D1C78BA6B4BAC359F6341625082D97 /* MKRotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKRotationView.swift; path = MKProgress/MKRotationView.swift; sourceTree = "<group>"; };
+		F1248DA2DD33BEC64AB2050F455022FD /* MKConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKConfig.swift; path = MKProgress/MKConfig.swift; sourceTree = "<group>"; };
+		F8253DE0479BC9B101760741C1C03D99 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
 		F8CF3CEFC76A4F2CFCA9D0B3D85F105B /* Pods-ChilLED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChilLED.debug.xcconfig"; sourceTree = "<group>"; };
 		FE64AD367D04E8A4198BE00523944859 /* Pods-ChilLED-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChilLED-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		991F09236A398F55E118EA006E31815C /* Frameworks */ = {
+		09C412E90370738E64E5B2C1ECB1515C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A3553BD6603BD4145BA352314308AE /* Foundation.framework in Frameworks */,
+				FA6E1E7FE4CC47037C25794B27E8A8DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FF2991489F2F26C4BDC80ED4804CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7715DFC65BF91C652683C0F7E43D0539 /* Foundation.framework in Frameworks */,
+				CD443F5C2D2C256EEFD5D6C439DA6A17 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +116,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		108CDD9CEABCE68D2266EF91D892E125 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				6B783972835CB8B883A43935E568F9C4 /* Info.plist */,
+				3D52681C7B6BE4F7A8BA378254E1C9A0 /* MKProgress.modulemap */,
+				1D97764CF6EDA8B53D73228A1DBCA876 /* MKProgress.xcconfig */,
+				6F255B48068111B8DD2A72BE77F57714 /* MKProgress-dummy.m */,
+				408C30F3353F7D215F6C8608184B30E9 /* MKProgress-prefix.pch */,
+				3F7A5052205CDF02F6B3F372B98F63E9 /* MKProgress-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/MKProgress";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B77A7A05442780EC92DC1750CA2454E /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4D6BC93F88F585B46D54F13EBC372DB7 /* Targets Support Files */ = {
@@ -102,64 +146,85 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		707F2F4CA91F6DAB1E6F41B657587353 /* MKProgress */ = {
+		5335FCA0D1E21F094981F06DBA354C60 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7C8D9EC00DD7629C3081343C2FFE595 /* CALayer+Extension.swift */,
-				B0BA19A7A90CB224201AC86008943848 /* MKActivityIndicatorView.swift */,
-				4497830D44F0AF10BECE46F12FE400DE /* MKConfig.swift */,
-				27F1E4BEDCCBE51420A1708630518313 /* MKLayerAnimationPersistence.swift */,
-				618822BD40FBAD1FA25E1B4E9F767EFC /* MKProgress.swift */,
-				802F5F40D164715AA4433A82F91BCB97 /* MKProgressBackgroundView.swift */,
-				F2D855CF8EFBAC5428E5BB3D9E76F0F8 /* MKProgressBaseView.swift */,
-				DA81752C533502AD1DB202A0A7FC1361 /* MKProgressViewController.swift */,
-				E7C56DDC237ED29E03594F72066E12FC /* MKRotationView.swift */,
-				CF37E3BE3885C67D0E3D16083AFB32EA /* Support Files */,
+				72C24C17C358035EF3ABEFAE58348B84 /* Info.plist */,
+				0DCB1C73B1A18D94FC8AC2634BCDAC3C /* Toast-Swift.modulemap */,
+				F8253DE0479BC9B101760741C1C03D99 /* Toast-Swift.xcconfig */,
+				9A12A991DA3A663D6B4ADE2D050BFF08 /* Toast-Swift-dummy.m */,
+				C633A96EB5F13C40BBB5D76381E5F17B /* Toast-Swift-prefix.pch */,
+				D4C453BDE43C0E8D4546F314983632E7 /* Toast-Swift-umbrella.h */,
 			);
-			name = MKProgress;
-			path = MKProgress;
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		7B77A7A05442780EC92DC1750CA2454E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */,
+				F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F56F3522FD30C3467018E00E1827117B /* Pods */,
-				9F680ED22C4F7995822991A3E665BE6D /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C7C09F76981AAE1245EEDC2083CABF96 /* Pods */,
+				CCC691301F1EED77D924B82C73F377FA /* Products */,
 				4D6BC93F88F585B46D54F13EBC372DB7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9F680ED22C4F7995822991A3E665BE6D /* Products */ = {
+		B1F513D5588CF0B671B995488097FEE0 /* MKProgress */ = {
 			isa = PBXGroup;
 			children = (
-				2F76F241BDC3F1C788A71D621EB1B836 /* MKProgress.framework */,
-				8A36AC125E52FDC4901A5F6399718ACD /* Pods_ChilLED.framework */,
+				24BC028D884383AA29CDC9831354FE7B /* CALayer+Extension.swift */,
+				B6E62CE1B5EA8637D450E506C76CAA4A /* MKActivityIndicatorView.swift */,
+				F1248DA2DD33BEC64AB2050F455022FD /* MKConfig.swift */,
+				302870803A9B23BB5EBC5B67D7CC4D42 /* MKLayerAnimationPersistence.swift */,
+				5569C90C38FBAD7C949140F0DC4B8BFC /* MKProgress.swift */,
+				8FE7EE47DFEF418D10EB7CB1C1EDA038 /* MKProgressBackgroundView.swift */,
+				3C5688146D303164634D52973FCAF360 /* MKProgressBaseView.swift */,
+				0ED987466DC1DBF6AE4DC2861F92DF00 /* MKProgressViewController.swift */,
+				F0D1C78BA6B4BAC359F6341625082D97 /* MKRotationView.swift */,
+				108CDD9CEABCE68D2266EF91D892E125 /* Support Files */,
+			);
+			name = MKProgress;
+			path = MKProgress;
+			sourceTree = "<group>";
+		};
+		C7C09F76981AAE1245EEDC2083CABF96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1F513D5588CF0B671B995488097FEE0 /* MKProgress */,
+				D3489FD46033964777973B3775BFAEAA /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCC691301F1EED77D924B82C73F377FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB87BABF68FD91D205F68D405406D51E /* MKProgress.framework */,
+				3A0789F5D4D06EEADE4ED88E0F7EE26A /* Pods_ChilLED.framework */,
+				3AB28E7F935C06A0916131D8CB6468C1 /* Toast_Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D3489FD46033964777973B3775BFAEAA /* Toast-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				9DC238098B9532DB1D321D382F488115 /* Toast.swift */,
+				5335FCA0D1E21F094981F06DBA354C60 /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CF37E3BE3885C67D0E3D16083AFB32EA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C1DDCC9FE62F70ABA62B834D5EC54F6 /* Info.plist */,
-				1006CBDD25BAE3899084C9A30D78FB0F /* MKProgress.modulemap */,
-				071D7242725A36ADC8CF2FC5138BF4F2 /* MKProgress.xcconfig */,
-				45497C8CC8287EC044576062D9FE6572 /* MKProgress-dummy.m */,
-				9DB18A786A2EDA8D54B560DFC6580D39 /* MKProgress-prefix.pch */,
-				D82FC77F946C496B4C5C7EE03DE9D4C1 /* MKProgress-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MKProgress";
+			name = "Toast-Swift";
+			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
 		F2B6F902247C268AE3C470462A48227C /* Pods-ChilLED */ = {
@@ -180,22 +245,22 @@
 			path = "Target Support Files/Pods-ChilLED";
 			sourceTree = "<group>";
 		};
-		F56F3522FD30C3467018E00E1827117B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				707F2F4CA91F6DAB1E6F41B657587353 /* MKProgress */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22B982029B45F20F6F3887D205A8523A /* Headers */ = {
+		06AC8079AC1B4B2DF1D16C8FDD0B3A4E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF96600EA823A9AF92C87125D2AB9045 /* Pods-ChilLED-umbrella.h in Headers */,
+				CB37956A7B35B415EF079948F25C3599 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B70A44B946A96EF63411B640B8284D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93124625068905A8EDF87A90779C032 /* Pods-ChilLED-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,23 +275,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		252C9EF4F438502586BC70D4B25E16C3 /* Pods-ChilLED */ = {
+		101EC400CCFE7711E21CB6973F1D4AF2 /* Toast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9B9866C7D712FC0697C45DFA54389B7 /* Build configuration list for PBXNativeTarget "Pods-ChilLED" */;
+			buildConfigurationList = 0F7909E67FDEE1E225FF2D29951D90C7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
 			buildPhases = (
-				22B982029B45F20F6F3887D205A8523A /* Headers */,
-				16FFCA55581E10D106EDAC7A077A8F7D /* Sources */,
-				991F09236A398F55E118EA006E31815C /* Frameworks */,
-				6E1DBE85D99435EEF870107233FC1932 /* Resources */,
+				06AC8079AC1B4B2DF1D16C8FDD0B3A4E /* Headers */,
+				1EB459FC5641EB19EC7F4401162631D1 /* Sources */,
+				11FF2991489F2F26C4BDC80ED4804CD0 /* Frameworks */,
+				A8AA6B4EF0C5629A6825F8D349042AB4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D88BF1AAAC9B5D837A5B5B81D9A0C1EE /* PBXTargetDependency */,
 			);
-			name = "Pods-ChilLED";
-			productName = "Pods-ChilLED";
-			productReference = 8A36AC125E52FDC4901A5F6399718ACD /* Pods_ChilLED.framework */;
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = 3AB28E7F935C06A0916131D8CB6468C1 /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		70781BC0C34D3B0C249BD51996DBD75A /* MKProgress */ = {
@@ -244,7 +308,27 @@
 			);
 			name = MKProgress;
 			productName = MKProgress;
-			productReference = 2F76F241BDC3F1C788A71D621EB1B836 /* MKProgress.framework */;
+			productReference = EB87BABF68FD91D205F68D405406D51E /* MKProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C36BD5F0AB094722BE89CFE81041BBF1 /* Pods-ChilLED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F7FF0CE5479CAD074A8E40C03A8D24 /* Build configuration list for PBXNativeTarget "Pods-ChilLED" */;
+			buildPhases = (
+				1B70A44B946A96EF63411B640B8284D8 /* Headers */,
+				DD58CD24423C3ACE897DFF59EB82F211 /* Sources */,
+				09C412E90370738E64E5B2C1ECB1515C /* Frameworks */,
+				C7D841BABAA43A4D50E9792EBEFE99D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77094510302C3752FC8A742CDD3C3555 /* PBXTargetDependency */,
+				6724F68A08E6AD933C4424F3F06FF786 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChilLED";
+			productName = "Pods-ChilLED";
+			productReference = 3A0789F5D4D06EEADE4ED88E0F7EE26A /* Pods_ChilLED.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -264,25 +348,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9F680ED22C4F7995822991A3E665BE6D /* Products */;
+			productRefGroup = CCC691301F1EED77D924B82C73F377FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				70781BC0C34D3B0C249BD51996DBD75A /* MKProgress */,
-				252C9EF4F438502586BC70D4B25E16C3 /* Pods-ChilLED */,
+				C36BD5F0AB094722BE89CFE81041BBF1 /* Pods-ChilLED */,
+				101EC400CCFE7711E21CB6973F1D4AF2 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E1DBE85D99435EEF870107233FC1932 /* Resources */ = {
+		794BA6095F5501E503492F113437CEDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		794BA6095F5501E503492F113437CEDE /* Resources */ = {
+		A8AA6B4EF0C5629A6825F8D349042AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D841BABAA43A4D50E9792EBEFE99D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,11 +384,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16FFCA55581E10D106EDAC7A077A8F7D /* Sources */ = {
+		1EB459FC5641EB19EC7F4401162631D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1702A94DD08E718482BED5305B442828 /* Pods-ChilLED-dummy.m in Sources */,
+				48087EA2FA3F11C4C394C637AA0755E0 /* Toast-Swift-dummy.m in Sources */,
+				D456FAF13D67D1FE56B6ADCD3F39326C /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +410,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD58CD24423C3ACE897DFF59EB82F211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41821FA36B39F99F4474143144EF9201 /* Pods-ChilLED-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D88BF1AAAC9B5D837A5B5B81D9A0C1EE /* PBXTargetDependency */ = {
+		6724F68A08E6AD933C4424F3F06FF786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 101EC400CCFE7711E21CB6973F1D4AF2 /* Toast-Swift */;
+			targetProxy = E325303135F3B7C602C23690BF21BF0E /* PBXContainerItemProxy */;
+		};
+		77094510302C3752FC8A742CDD3C3555 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MKProgress;
 			target = 70781BC0C34D3B0C249BD51996DBD75A /* MKProgress */;
-			targetProxy = B8562AAAFBFAC2E60BA2560E1E514619 /* PBXContainerItemProxy */;
+			targetProxy = 8222672D41050F0BB4284B935C32A658 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -397,7 +504,7 @@
 		};
 		4DA5D005F459F346D0FDA104EB5C2E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071D7242725A36ADC8CF2FC5138BF4F2 /* MKProgress.xcconfig */;
+			baseConfigurationReference = 1D97764CF6EDA8B53D73228A1DBCA876 /* MKProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -430,12 +537,10 @@
 			};
 			name = Debug;
 		};
-		67555116F170B910E257965F73A8EF5C /* Debug */ = {
+		564B3AEA1EB60FF73F657D764F7A8030 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8CF3CEFC76A4F2CFCA9D0B3D85F105B /* Pods-ChilLED.debug.xcconfig */;
+			baseConfigurationReference = F8253DE0479BC9B101760741C1C03D99 /* Toast-Swift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -445,28 +550,63 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ChilLED/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChilLED/Pods-ChilLED.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7D8A174BBE5846CF93008A0F9BADBA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8253DE0479BC9B101760741C1C03D99 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8000995DA02063BF3777393CD52061DD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -530,7 +670,7 @@
 			};
 			name = Release;
 		};
-		D62F3FD0C99ED4D6C0025E92AB9DB825 /* Release */ = {
+		8FBDF38B9B0A669613B7ED1589B1B84F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B6363D670568998DBC24F909E9627F9 /* Pods-ChilLED.release.xcconfig */;
 			buildSettings = {
@@ -569,9 +709,47 @@
 			};
 			name = Release;
 		};
+		9348288B72D900D22D6A9F1C7EA03ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CF3CEFC76A4F2CFCA9D0B3D85F105B /* Pods-ChilLED.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChilLED/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChilLED/Pods-ChilLED.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D802BBA4093384E44AB4E728B331BC1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071D7242725A36ADC8CF2FC5138BF4F2 /* MKProgress.xcconfig */;
+			baseConfigurationReference = 1D97764CF6EDA8B53D73228A1DBCA876 /* MKProgress.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -608,6 +786,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F7909E67FDEE1E225FF2D29951D90C7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B3AEA1EB60FF73F657D764F7A8030 /* Debug */,
+				7D8A174BBE5846CF93008A0F9BADBA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -626,11 +813,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9B9866C7D712FC0697C45DFA54389B7 /* Build configuration list for PBXNativeTarget "Pods-ChilLED" */ = {
+		92F7FF0CE5479CAD074A8E40C03A8D24 /* Build configuration list for PBXNativeTarget "Pods-ChilLED" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67555116F170B910E257965F73A8EF5C /* Debug */,
-				D62F3FD0C99ED4D6C0025E92AB9DB825 /* Release */,
+				9348288B72D900D22D6A9F1C7EA03ECC /* Debug */,
+				8FBDF38B9B0A669613B7ED1589B1B84F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
